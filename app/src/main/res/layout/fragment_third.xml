@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"  xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".third">
+
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/ab">
+        <TextView android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="UNIVERSITAS PGRI SEMARANG"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:textAlignment="center"/>
+        <android.support.v7.widget.CardView
+            android:layout_marginTop="16dp"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:elevation="5dp"
+            app:cardCornerRadius="5dp"
+            android:background="@color/colorAccent"
+            android:layout_gravity="center_horizontal">
+
+            <ImageView android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/upgris"/>
+        </android.support.v7.widget.CardView>
+
+
+        <ScrollView android:layout_width="match_parent" android:layout_height="match_parent">
+
+            <TextView android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:textColor="#A52A2A"
+                android:text="Universitas PGRI Semarang didirikan oleh
+                 Pengurus Daerah Tingkat I PGRI Provinsi Jawa Tengah melalui
+                 Yayasan Pembina Lembaga Pendidikan (YPLP) IKIP PGRI Jawa Tengah
+                 dan merupakan perubahan bentuk dari IKIP PGRI Semarang dengan Akademi
+                 Teknologi Semarang.
+"
+                android:textAlignment="center"/>
+        </ScrollView>
+    </LinearLayout>
+</FrameLayout>
